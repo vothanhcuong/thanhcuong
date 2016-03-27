@@ -1,0 +1,39 @@
+#container {
+	width:90%;
+	margin:auto;
+	background:#f6f6f6 url("../image/bg2.jpg") no-repeat fixed right top;
+	border:2px dotted red;
+}
+h1 {text-align:center;}
+
+.col1,.col2,.col3 {
+	width:29.5%;
+	margin:10px;
+	padding:10px;
+	float:left;}
+	.col1{
+		border-style: solid dashed; 
+		background-image:url("../image/bg1.jpg")
+	}
+	.col2 p{ 
+	    line-height:50px;
+		border:1px solid;
+		margin-bottom:5px;}
+	.col2{
+		border-radius:10px;
+		background:#669999;
+		box-shadow:5px 5px 15px orange;
+	}
+	.col3 {
+		background-color:rgba(0,0,0,.3)
+	}
+	.col4 {
+		width:96%;
+		margin-left:10px;
+		clear:both;
+		background:linear-gradient(#ABA172,#FFF);
+		margin:10px;
+	}
+	div h3{
+		color:red;
+	}
