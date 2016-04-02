@@ -1,0 +1,101 @@
+* { margin:0;
+    padding:0;}
+body { padding:30px;}
+nav, h1{
+	margin:5px;
+	float:left;
+	width:100%;
+}
+ul li {
+	list-style:none;
+}
+.h_nav li{
+	display:inline-block;
+	width:140px;
+	border:1px solid;
+	background:blue;
+	float:left;
+	text-align:center;
+        }
+.h_nav a{
+	text-decoration:none;
+	background:#eee;
+	display:block;
+	height:100%;
+	padding:5px;
+}
+.h_nav a:hover{
+	background:red;
+	color:yellow;
+}
+
+.v_nav li {
+	width:140px;
+	border:1px solid;
+	background:orange;
+	text-align:center;
+}
+.v_nav a{
+	text-decoration:none;
+	background:#eee;
+	display:block;
+	height:100%;
+	padding:5px;
+}
+.v_nav a:hover{
+	background:red;
+	color:yellow;
+}
+
+.d_nav li{
+	width:140px;
+	border:1px solid;
+	float:left;
+	text-align:center;
+        }
+.d_nav a{
+	text-decoration:none;
+	background:#eee;
+	display:block;
+	height:100%;
+	padding:5px;
+}
+.d_nav a:hover{
+	background:red;
+	color:yellow;
+}
+.d_nav li ul {
+	display:none;
+}
+.d_nav li:hover ul {
+	display:block;
+}
+
+.ver_nav li{
+	width:140px;
+	border:1px solid;
+	text-align:center;
+	position:relative;
+        }
+.ver_nav a{
+	text-decoration:none;
+	background:#eee;
+	display:block;
+	height:100%;
+	padding:5px;
+}
+.ver_nav a:hover{
+	background:red;
+	color:yellow;
+}
+.ver_nav li ul {
+	display:none;
+	position:absolute;
+	left:140px;
+	top:0;
+	margin:0;
+	padding:0;
+}
+.ver_nav li:hover ul {
+	display:block;
+}
